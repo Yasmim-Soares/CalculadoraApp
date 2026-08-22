@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="34dp"
+        android:text="@string/primeiroNumero"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/ednumero1"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:inputType="@string/app_name"
+        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields" />
+
+    <EditText
+        android:id="@+id/ednumero2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="138dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:importantForAutofill="no"
+        android:inputType="@string/primeiroNumero"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A" />
+
+    <TextView
+        android:id="@+id/btSomar"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="114dp"
+        android:text="@string/digite_o_segundo_n_mero"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/btnSomar"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="201dp"
+        android:text="@string/somar" />
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CalculadoraYS</string>
+    <string name="primeiroNumero">Digite o primeiro número:</string>
+    <string name="embranco"></string>
+    <string name="somar">Somar</string>
+    <string name="digite_o_segundo_n_mero">Digite o segundo número:</string>
+</resources>
