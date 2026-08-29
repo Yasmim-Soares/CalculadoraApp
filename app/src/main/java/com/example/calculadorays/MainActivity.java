@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
                         AlertDialog.Builder(MainActivity.this);
                 dialogo.setTitle("Resultado da fatoração");
                 dialogo.setMessage("A fatoração é " + fatorar);
-                dialogo.setNeutralButton("Ok", null);
+                dialogo.setNeutralButton("OK", null);
                 dialogo.show();
             }
         });
